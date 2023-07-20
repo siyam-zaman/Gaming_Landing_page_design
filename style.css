@@ -141,3 +141,47 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+
+/* !About-us */
+
+.About-us {
+  display: flex;
+  align-items: center;
+  text-align: end;
+}
+.AboutUS-Text-Container {
+  margin-left: 52px;
+}
+.AboutUS-Title {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 24px;
+}
+.AboutUs-Subtitle {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+  width: 32.5rem;
+  margin-bottom: 32px;
+}
+.purpose {
+  margin-top: 24px;
+  color: #534c64;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.8125rem;
+}
+.quote {
+  color: #534c64;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.8125rem;
+}
