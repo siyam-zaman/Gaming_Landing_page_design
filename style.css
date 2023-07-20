@@ -32,6 +32,19 @@ html {
 .btn2 {
   background-color: var(--Lightblue);
 }
+.btn3{
+  padding: 1.3125rem 2.5rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 3rem;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #FFF;
+  color:var(--Pink);
+}
 /* *header Section  */
 header {
   padding: 37px 240px;
@@ -214,7 +227,7 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: 1.875rem;
-  margin-bottom:48px;
+  margin-bottom: 48px;
 }
 .game-Container {
   display: flex;
@@ -250,7 +263,7 @@ main {
 .overlay i {
   font-size: 3rem;
   margin-bottom: 16px;
-  color:var(--Pink);
+  color: var(--Pink);
 }
 .overlay p {
   text-align: center;
@@ -268,4 +281,136 @@ main {
   width: 21.375rem;
   margin-top: 5px;
   text-align: start;
+}
+
+/* !Blog1 */
+
+.Bolg1 {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Bolg1-text-Container {
+  max-width: 353px;
+  text-align: start;
+}
+.Blog1-Title {
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.75rem;
+  color: var(--Navyblue);
+  margin-bottom: 24px;
+}
+.Blog1-Title span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Blog1-Description {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+.image-container {
+  position: relative;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 60%;
+  left: -25%;
+  z-index: 1;
+}
+
+/* !Blog2 */
+
+.Blog2 {
+  margin-top: 150px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.overlay-image2 {
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  z-index: 1;
+}
+.Bolg2-text-Container {
+  max-width: 353px;
+  text-align: end;
+}
+.Blog1-Title2 {
+  font-family: Work Sans;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.75rem;
+  color: var(--Navyblue);
+  margin-bottom: 24px;
+}
+.Blog1-Title2 span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Blog2-Description {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+/* !Careers */
+
+.Careers {
+  background-color: var(--Pink);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Career-Text-COntainer {
+  padding: 0 120px;
+}
+.Careers-Title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+  margin-bottom: 24px;
+}
+.Careers-Description {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-bottom:32px;
+}
+.inner-text{
+  display: flex;
+  justify-content: space-between;
+}
+.inner-text ul{
+  list-style: none;
+  margin-bottom:40px;
+}
+.inner-text li{
+  color: #FFF;
+font-size: 1.25rem;
+font-weight: 600;
+line-height: 2.5rem;
+}
+.inner-text2{
+  text-align: end;
 }
