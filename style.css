@@ -32,7 +32,7 @@ html {
 .btn2 {
   background-color: var(--Lightblue);
 }
-.btn3{
+.btn3 {
   padding: 1.3125rem 2.5rem;
   align-items: flex-start;
   gap: 0.625rem;
@@ -42,8 +42,8 @@ html {
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
-  background: #FFF;
-  color:var(--Pink);
+  background: #fff;
+  color: var(--Pink);
 }
 /* *header Section  */
 header {
@@ -395,22 +395,133 @@ main {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.875rem;
-  margin-bottom:32px;
+  margin-bottom: 32px;
 }
-.inner-text{
+.inner-text {
   display: flex;
   justify-content: space-between;
 }
-.inner-text ul{
+.inner-text ul {
   list-style: none;
-  margin-bottom:40px;
+  margin-bottom: 40px;
 }
-.inner-text li{
-  color: #FFF;
-font-size: 1.25rem;
-font-weight: 600;
-line-height: 2.5rem;
+.inner-text li {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 2.5rem;
 }
-.inner-text2{
+.inner-text2 {
   text-align: end;
+}
+
+/* !btn-section */
+
+.btn-section {
+  padding: 0 240px;
+  margin: 120px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.centered-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid rgba(128, 128, 128, 0.508);
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 28px;
+  margin-right: 27px;
+}
+.centered-button img {
+  margin-right: 10px;
+}
+.centered-button span {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.centered-button:hover {
+  border: 2px solid #ff42a5;
+}
+.centered-button span:hover {
+  color: var(--Pink);
+}
+
+/* !Footer  */
+
+footer {
+  background: #0b0223;
+  padding: 120px 553px;
+}
+.Logo-Container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+.Logo-Container2 h1 {
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin-left: 20px;
+  color: white;
+}
+.Logo-Container2 span {
+  background: var(--Pink);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 56px;
+}
+footer li {
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.footer-icon {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.footer-icon i {
+  margin-right: 40px;
+  color: white;
+  cursor: pointer;
+}
+.footer-TC li {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.footer-TC {
+  margin-bottom: 8px;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
