@@ -94,3 +94,50 @@ a {
 .fa-youtube {
   color: red;
 }
+
+/* !Banner section  */
+
+main {
+  background: url(./images/Group14.png);
+  background-repeat: no-repeat;
+  padding: 0 240px;
+}
+.Banner-SubTitle {
+  color: var(--Navyblue);
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.Banner-Title {
+  font-size: 5.9375rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Banner-Text-Container ul {
+  list-style: none;
+}
+.Banner-Text-Container li {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: lowercase;
+  margin-bottom: 17px;
+}
+.Banner-Text-Container i {
+  color: var(--Pink);
+  margin-right: 10px;
+}
+.BannerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
