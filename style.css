@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Work Sans', sans-serif;
+}
+:root{
+    --Pink:#ff42a5;
+    --Lightblue:#4ec5f7;
+    --Navyblue:#0b0223;
+    --Pink-Hover: ;
+    --Lightblue-Hover: ;
+}
+html{
+    scroll-behavior:smooth;
+}
